@@ -14,3 +14,9 @@ Access your private container repo.
 To access private container repo in one command without leaving sensitive info in the command history.
 
 And I'm not happy with the solution integrated with the docker command for storing the token secrets.
+
+## Troubleshoot
+
+Problem: `line 3: $'echo\r': command not found`
+
+Solution: `dos2unix docker-build-push.sh`
